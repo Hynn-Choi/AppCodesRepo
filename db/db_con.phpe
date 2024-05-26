@@ -1,0 +1,7 @@
+<?php
+		$db_id = "admin";
+		$db_pw = "pwdbuser";
+		$db_name = "mydb";
+		$db_domain = "rds-uft8mb4.chtepjbqnhud.ap-northeast-2.rds.amazonaws.com";
+		$con = mysqli_connect($db_domain,$db_id,$db_pw,$db_name);
+?>
